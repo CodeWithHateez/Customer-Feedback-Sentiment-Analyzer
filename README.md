@@ -23,4 +23,3 @@ pip install -r requirements.txt
 python train_model.py
 streamlit run app.py
 
-<img width="590" height="617" alt="image" src="https://github.com/user-attachments/assets/c5d37fe9-e81c-4393-9665-78f4dc630699" />
