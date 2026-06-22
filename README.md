@@ -1,28 +1,24 @@
 # Customer Feedback Sentiment Analyzer
 
-A lightweight sentiment analysis project built for portfolio use and internship applications.
+A lightweight sentiment analysis project built with Python and Streamlit that classifies customer review text as positive or negative and displays sentiment percentages in an easy-to-use web interface.
 
 ## What it does
 - Trains a simple sentiment classifier on review text
-- Predicts positive or negative sentiment
-- Displays positive/negative percentages in a Streamlit UI
-- Uses a small sample dataset so it stays easy to run on low-spec machines
+- Predicts whether feedback is positive or negative
+- Shows positive and negative sentiment percentages in a Streamlit dashboard
+- Uses a small sample dataset so it runs well on low-spec machines
 
-## Tech stack
+## Tech Stack
 - Python
 - pandas
 - scikit-learn
 - Streamlit
 - joblib
 
-## How to run
+## How to Run
 ```bash
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 python train_model.py
 streamlit run app.py
-```
-
-## Resume bullet
-Built a customer feedback sentiment analysis app in Python using scikit-learn and Streamlit, with model training, prediction output, and percentage-based review visualization.
